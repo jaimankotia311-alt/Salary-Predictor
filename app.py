@@ -4,7 +4,7 @@ import streamlit as st
 
 # from pathlib import Path
 
-model = joblib.load(r"C:\Users\Jay Mankotia\Desktop\AI ML\01 Salaery Pridictor\Sallary_Predictor.joblib")
+model = joblib.load("Sallary_Predictor.joblib")
 
 # print(model.predict([[1.4]]))
 # print(model.predict([[2.3]]))
